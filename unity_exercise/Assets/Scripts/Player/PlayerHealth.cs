@@ -23,6 +23,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Awake()
     {
+        // mendapatkan reference components
         anim = GetComponent<Animator>();
         playerAudio = GetComponent<AudioSource>();
         playerMovement = GetComponent<PlayerMovement>();
@@ -34,29 +35,37 @@ public class PlayerHealth : MonoBehaviour
 
     void Update()
     {
+        // jika terkena damage
         if (damaged)
         {
+            // merubah warna gambar menjadi value dari flashColour
             damageImage.color = flashColour;
         }
         else
         {
+            // fade out damage image
             damageImage.color = Color.Lerp(damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
         }
 
+        // set damage to false
         damaged = false;
     }
 
-
+    // fungsi untuk menerima damage
     public void TakeDamage(int amount)
     {
         damaged = true;
 
+        // mengurangi darah player
         currentHealth -= amount;
 
+        // mengubah tampilan dari health slider
         healthSlider.value = currentHealth;
 
+        // memainkan suara saat terkena damage
         playerAudio.Play();
 
+        // memanggil method Death() jika darah < 0 dan belum mati
         if (currentHealth <= 0 && !isDead)
         {
             Death();
@@ -70,12 +79,21 @@ public class PlayerHealth : MonoBehaviour
 
         //playerShooting.DisableEffects();
 
+        // mentrigger animasi Die
         anim.SetTrigger("Die");
 
+        // memainkan suara ketika mati
         playerAudio.clip = deathClip;
         playerAudio.Play();
 
+        // mematikan script player
         playerMovement.enabled = false;
         //playerShooting.enabled = false;
+    }
+
+    public void RestartLevel ()
+    {
+        // meload ulang scene dengan index 0 pada build setting
+        // SceneManager.LoadScene (0);
     }
 }
