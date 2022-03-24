@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 9140421225088212884}
   - component: {fileID: 9140421225088212885}
   - component: {fileID: 9140421225088212891}
-  - component: {fileID: 9140421225088212889}
   - component: {fileID: 9140421225088212890}
+  - component: {fileID: 9140421225088212889}
   - component: {fileID: 9140421225088212880}
   - component: {fileID: 9140421225088212882}
   m_Layer: 7
@@ -201,18 +201,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &9140421225088212889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9140421225088244084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94f6618a0da65fa45b24d5105d5d8422, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!195 &9140421225088212890
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -235,6 +223,18 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &9140421225088212889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9140421225088244084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f6618a0da65fa45b24d5105d5d8422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &9140421225088212880
 MonoBehaviour:
   m_ObjectHideFlags: 0

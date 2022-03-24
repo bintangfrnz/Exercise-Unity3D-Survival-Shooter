@@ -759,3 +759,128 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1581.958738 seconds.
+  path: Assets/Prefabs/Zombunny 1.prefab
+  artifactKey: Guid(f85c2c12f20ec4600ac94bf2fbc6aee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Zombunny 1.prefab using Guid(f85c2c12f20ec4600ac94bf2fbc6aee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccc5d33f902f1f08404cac49cc10638') in 0.095841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.095874 seconds.
+  path: Assets/Prefabs/Zombunny.prefab
+  artifactKey: Guid(9b2dde24d0c844efbbea454367dee133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Zombunny.prefab using Guid(9b2dde24d0c844efbbea454367dee133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf7c2bb33200afba5b070e3b5bb531b') in 0.014632 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001234 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d393000 may have been prematurely finalized
+Symbol file data-0x15ca54400 doesn't match image /Users/bintangfajarianto/Documents/Semester-6/IF3210-PBD/Tubes-2/Exercise-Unity3D-Survival-Shooter/unity_exercise/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/bintangfajarianto/Documents/Semester-6/IF3210-PBD/Tubes-2/Exercise-Unity3D-Survival-Shooter/unity_exercise/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bintangfajarianto/Documents/Semester-6/IF3210-PBD/Tubes-2/Exercise-Unity3D-Survival-Shooter/unity_exercise/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.517 seconds
+Domain Reload Profiling:
+	ReloadAssembly (518ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (396ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3249 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (71.9 KB). Loaded Objects now: 3806.
+Memory consumption went from 255.7 MB to 255.6 MB.
+Total: 2.157583 ms (FindLiveObjects: 0.116333 ms CreateObjectMapping: 0.040042 ms MarkObjects: 1.944291 ms  DeleteObjects: 0.056000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169.751314 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(c98966532a6d34ee88609b6aa1ba253f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(c98966532a6d34ee88609b6aa1ba253f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95378206e4e567f52d8363d265bfd298') in 0.016284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.144143 seconds.
+  path: Assets/Prefabs/Hellephant.prefab
+  artifactKey: Guid(f264ab47e25d0374ba89abced0b94b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hellephant.prefab using Guid(f264ab47e25d0374ba89abced0b94b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58eac8b752976c1774f74328e20de7a8') in 0.042587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.625287 seconds.
+  path: Assets/Prefabs/ZomBear.prefab
+  artifactKey: Guid(3688f3f3f312c984fa78e00c09819e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ZomBear.prefab using Guid(3688f3f3f312c984fa78e00c09819e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7a45f25e2afcb5b6413c3ee86e6e34') in 0.026617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.770711 seconds.
+  path: Assets/Prefabs/Environment.prefab
+  artifactKey: Guid(149d6dcc67e8d1240bbc0dd6ddf0c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment.prefab using Guid(149d6dcc67e8d1240bbc0dd6ddf0c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c62c4780df989feba435169eb8e542') in 0.361785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.300852 seconds.
+  path: Assets/Prefabs/GunParticles.prefab
+  artifactKey: Guid(0bd11145ced4539458f937fc4609544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GunParticles.prefab using Guid(0bd11145ced4539458f937fc4609544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c592c1876995dcb3a0ed1314636ec6') in 0.010570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.582621 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(84406cd92f90e464892718e2bebd189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(84406cd92f90e464892718e2bebd189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10160c8e563f1ffce52b9e9b40bcff82') in 0.024731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.181719 seconds.
+  path: Assets/Prefabs/ZomBear.prefab
+  artifactKey: Guid(3688f3f3f312c984fa78e00c09819e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ZomBear.prefab using Guid(3688f3f3f312c984fa78e00c09819e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a58fbddfd8b2848de6686590f4d33d') in 0.017277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.960313 seconds.
+  path: Assets/Prefabs/Zombunny.prefab
+  artifactKey: Guid(9b2dde24d0c844efbbea454367dee133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Zombunny.prefab using Guid(9b2dde24d0c844efbbea454367dee133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3321a9c27c58804166701a9fef21cdd') in 0.018613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.525519 seconds.
+  path: Assets/Prefabs/HUDCanvas.prefab
+  artifactKey: Guid(fc402b62afdce46dfb81cb90b29acee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HUDCanvas.prefab using Guid(fc402b62afdce46dfb81cb90b29acee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cea9bd20e3f5ddb2c79d3cb8965a732') in 0.028567 seconds 
