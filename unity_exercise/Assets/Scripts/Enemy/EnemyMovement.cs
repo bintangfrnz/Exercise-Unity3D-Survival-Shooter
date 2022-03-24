@@ -15,8 +15,8 @@ public class EnemyMovement : MonoBehaviour
         player = GameObject.FindGameObjectWithTag ("Player").transform;
 
         // mendapatkan reference component
-        // playerHealth = player.GetComponent <PlayerHealth> ();
-        // enemyHealth = GetComponent <EnemyHealth> ();
+        playerHealth = player.GetComponent <PlayerHealth> ();
+        enemyHealth = GetComponent <EnemyHealth> ();
         nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
     }
 
@@ -24,13 +24,13 @@ public class EnemyMovement : MonoBehaviour
     void Update ()
     {
         // memindahkan posisi player
-        // if (enemyHealth.currentHealth > 0 && playerHealth.currentHealth > 0)
-        // {
+        if (enemyHealth.currentHealth > 0 && playerHealth.currentHealth > 0)
+        {
             nav.SetDestination (player.position);
-        // }
-        // else // hentikan moving
-        // {
-        //    nav.enabled = false;
-        // }
+        }
+        else // hentikan moving
+        {
+           nav.enabled = false;
+        }
     }
 }
